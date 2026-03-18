@@ -1,0 +1,281 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="WRIGHT#" />
+    <node id="ADL" />
+    <node id="CSP" />
+    <node id="PAT" />
+    <node id="LTS" />
+    <node id="CLIENT-SERVER" />
+    <node id="PUBLISH-SUBSCRIBE" />
+    <node id="CSCONNECTOR" />
+    <node id="ESCONNECTOR" />
+    <node id="COUPLING" />
+    <node id="SOFTWARE ARCHITECTURE" />
+    <node id="COMPONENT &amp; CONNECTOR (C&amp;C) PARADIGM" />
+    <node id="ARCHITECTURE STYLE" />
+    <node id="FORMAL BEHAVIORAL MODELING" />
+    <node id="FORMAL VERIFICATION" />
+    <node id="CONNECTOR" />
+    <node id="COMPONENT" />
+    <node id="CLIENT" />
+    <node id="SERVER" />
+    <node id="REQUEST" />
+    <node id="RESPONSE" />
+    <node id="INVOKE" />
+    <node id="PROCESS STAGE" />
+    <node id="EVENTPUBLISHER" />
+    <node id="EVENTSTORE" />
+    <node id="EVENTSUBSCRIBER" />
+    <node id="BROADCAST" />
+    <node id="PERSIST" />
+    <node id="ATTACH" />
+    <node id="A.P1" />
+    <node id="B.P2" />
+    <node id="C.P3" />
+    <node id="CALLWIRE" />
+    <node id="PAYWIRE" />
+    <node id="ROLE" />
+    <node id="OUTPUT ROLE" />
+    <node id="INPUT ROLE" />
+    <node id="CHANNEL" />
+    <node id="PORT" />
+    <node id="PROCESS" />
+    <node id="A" />
+    <node id="P1" />
+    <node id="EVENTWIRE" />
+    <node id="B" />
+    <node id="P2" />
+    <node id="C" />
+    <node id="P3" />
+    <node id="EVENTWIRE.EVENTPUBLISHER" />
+    <node id="EVENTWIRE.EVENTSTORE" />
+    <node id="EVENTWIRE.EVENTSUBSCRIBER" />
+    <node id="PASSENGERUI" />
+    <node id="RIDE CALLING" />
+    <node id="DRIVERUI" />
+    <node id="ASSIGNWIRE" />
+    <node id="TRIPMGMT" />
+    <node id="ASSIGN" />
+    <node id="PSCONNECTOR" />
+    <node id="SYSTEM MISCONFIGURATION: MULTIPLE ATTACHMENTS TO THE SAME INPUT ROLE" />
+    <node id="WRIGHT# ADL" />
+    <node id="LTL PROPERTY" />
+    <node id="FOOD DELIVERY" />
+    <node id="CUSTOMERUI" />
+    <node id="SUPPORTCENTER" />
+    <node id="RIDE SHARING SYSTEM (RRS)" />
+    <node id="RIDESHARE" />
+    <node id="REQUESTER" />
+    <node id="RESPONDER" />
+    <node id="ROCONNECTOR" />
+    <node id="EXTQUERIER" />
+    <node id="BLOCKSUPPLIER" />
+    <node id="CRCONNECTOR" />
+    <node id="READSTORE" />
+    <node id="COMMANDER" />
+    <node id="COMMANDSTORE" />
+    <node id="WRCONNECTOR" />
+    <node id="WRITER" />
+    <node id="WRITESTORAGE" />
+    <node id="RECONNECTOR" />
+    <node id="READER" />
+    <node id="READSTORAGE" />
+    <node id="PUBLISHER" />
+    <node id="SUBSCRIBER" />
+    <node id="QRCONNECTOR" />
+    <node id="QUERIER" />
+    <node id="IOCONNECTOR" />
+    <node id="BLOCKSTORAGE" />
+    <node id="EXTSUPPLIER" />
+    <node id="PATH 1" />
+    <node id="PATH 3" />
+    <node id="PATH 4" />
+    <node id="PATH 2" />
+    <node id="DRIVERRECORD" />
+    <node id="PAYMENT" />
+    <node id="PATH 5" />
+    <node id="BILLINGGATEWAY" />
+    <node id="SIGNON" />
+    <node id="USERDB" />
+    <node id="ASSIGNLOG" />
+    <node id="DRIVERCOMMANDLOG" />
+    <node id="TRIP ASSIGNMENT" />
+    <node id="RIDE" />
+    <node id="DRIVER" />
+    <node id="PAYMENT PROCESSING" />
+    <node id="PASSENGER" />
+    <node id="PAYMENT TRANSACTION" />
+    <node id="USER" />
+    <node id="LOGIN" />
+    <edge source="WRIGHT#" target="ADL" />
+    <edge source="WRIGHT#" target="CSP" />
+    <edge source="WRIGHT#" target="PAT" />
+    <edge source="WRIGHT#" target="LTS" />
+    <edge source="WRIGHT#" target="CLIENT-SERVER" />
+    <edge source="WRIGHT#" target="PUBLISH-SUBSCRIBE" />
+    <edge source="WRIGHT#" target="CSCONNECTOR" />
+    <edge source="WRIGHT#" target="ESCONNECTOR" />
+    <edge source="WRIGHT#" target="COUPLING" />
+    <edge source="WRIGHT#" target="SOFTWARE ARCHITECTURE" />
+    <edge source="WRIGHT#" target="COMPONENT &amp; CONNECTOR (C&amp;C) PARADIGM" />
+    <edge source="WRIGHT#" target="ARCHITECTURE STYLE" />
+    <edge source="WRIGHT#" target="FORMAL BEHAVIORAL MODELING" />
+    <edge source="WRIGHT#" target="FORMAL VERIFICATION" />
+    <edge source="WRIGHT#" target="CONNECTOR" />
+    <edge source="WRIGHT#" target="COMPONENT" />
+    <edge source="PAT" target="SYSTEM MISCONFIGURATION: MULTIPLE ATTACHMENTS TO THE SAME INPUT ROLE" />
+    <edge source="CLIENT-SERVER" target="CSCONNECTOR" />
+    <edge source="PUBLISH-SUBSCRIBE" target="ESCONNECTOR" />
+    <edge source="CSCONNECTOR" target="CLIENT" />
+    <edge source="CSCONNECTOR" target="SERVER" />
+    <edge source="CSCONNECTOR" target="REQUEST" />
+    <edge source="CSCONNECTOR" target="RESPONSE" />
+    <edge source="CSCONNECTOR" target="INVOKE" />
+    <edge source="CSCONNECTOR" target="PROCESS STAGE" />
+    <edge source="CSCONNECTOR" target="CALLWIRE" />
+    <edge source="CSCONNECTOR" target="WRIGHT# ADL" />
+    <edge source="CSCONNECTOR" target="RIDESHARE" />
+    <edge source="CSCONNECTOR" target="REQUESTER" />
+    <edge source="CSCONNECTOR" target="RESPONDER" />
+    <edge source="ESCONNECTOR" target="EVENTPUBLISHER" />
+    <edge source="ESCONNECTOR" target="EVENTSTORE" />
+    <edge source="ESCONNECTOR" target="EVENTSUBSCRIBER" />
+    <edge source="ESCONNECTOR" target="BROADCAST" />
+    <edge source="ESCONNECTOR" target="PERSIST" />
+    <edge source="ESCONNECTOR" target="PROCESS STAGE" />
+    <edge source="ESCONNECTOR" target="ATTACH" />
+    <edge source="ESCONNECTOR" target="A.P1" />
+    <edge source="ESCONNECTOR" target="B.P2" />
+    <edge source="ESCONNECTOR" target="C.P3" />
+    <edge source="ESCONNECTOR" target="RIDESHARE" />
+    <edge source="COUPLING" target="CALLWIRE" />
+    <edge source="COUPLING" target="PAYWIRE" />
+    <edge source="CONNECTOR" target="ROLE" />
+    <edge source="CONNECTOR" target="OUTPUT ROLE" />
+    <edge source="CONNECTOR" target="INPUT ROLE" />
+    <edge source="CONNECTOR" target="CHANNEL" />
+    <edge source="COMPONENT" target="PORT" />
+    <edge source="CLIENT" target="SERVER" />
+    <edge source="EVENTPUBLISHER" target="EVENTSTORE" />
+    <edge source="EVENTPUBLISHER" target="EVENTSUBSCRIBER" />
+    <edge source="EVENTPUBLISHER" target="A" />
+    <edge source="EVENTPUBLISHER" target="P1" />
+    <edge source="EVENTSTORE" target="EVENTSUBSCRIBER" />
+    <edge source="EVENTSTORE" target="B" />
+    <edge source="EVENTSTORE" target="P2" />
+    <edge source="EVENTSUBSCRIBER" target="C" />
+    <edge source="EVENTSUBSCRIBER" target="P3" />
+    <edge source="A.P1" target="A" />
+    <edge source="A.P1" target="EVENTWIRE.EVENTPUBLISHER" />
+    <edge source="B.P2" target="B" />
+    <edge source="B.P2" target="EVENTWIRE.EVENTSTORE" />
+    <edge source="C.P3" target="C" />
+    <edge source="C.P3" target="EVENTWIRE.EVENTSUBSCRIBER" />
+    <edge source="CALLWIRE" target="PASSENGERUI" />
+    <edge source="CALLWIRE" target="TRIPMGMT" />
+    <edge source="ROLE" target="PORT" />
+    <edge source="ROLE" target="PROCESS" />
+    <edge source="PORT" target="PROCESS" />
+    <edge source="A" target="P1" />
+    <edge source="A" target="EVENTWIRE" />
+    <edge source="EVENTWIRE" target="B" />
+    <edge source="EVENTWIRE" target="C" />
+    <edge source="EVENTWIRE" target="EVENTWIRE.EVENTPUBLISHER" />
+    <edge source="EVENTWIRE" target="EVENTWIRE.EVENTSTORE" />
+    <edge source="EVENTWIRE" target="EVENTWIRE.EVENTSUBSCRIBER" />
+    <edge source="B" target="P2" />
+    <edge source="C" target="P3" />
+    <edge source="EVENTWIRE.EVENTPUBLISHER" target="EVENTWIRE.EVENTSTORE" />
+    <edge source="EVENTWIRE.EVENTSTORE" target="EVENTWIRE.EVENTSUBSCRIBER" />
+    <edge source="PASSENGERUI" target="RIDE CALLING" />
+    <edge source="PASSENGERUI" target="RIDESHARE" />
+    <edge source="PASSENGERUI" target="PATH 1" />
+    <edge source="PASSENGERUI" target="PATH 3" />
+    <edge source="PASSENGERUI" target="PATH 4" />
+    <edge source="PASSENGERUI" target="PAYMENT" />
+    <edge source="PASSENGERUI" target="SIGNON" />
+    <edge source="PASSENGERUI" target="PAYMENT PROCESSING" />
+    <edge source="PASSENGERUI" target="PASSENGER" />
+    <edge source="PASSENGERUI" target="PAYMENT TRANSACTION" />
+    <edge source="RIDE CALLING" target="DRIVERUI" />
+    <edge source="RIDE CALLING" target="TRIPMGMT" />
+    <edge source="DRIVERUI" target="ASSIGNWIRE" />
+    <edge source="DRIVERUI" target="RIDESHARE" />
+    <edge source="DRIVERUI" target="PATH 1" />
+    <edge source="DRIVERUI" target="PATH 2" />
+    <edge source="DRIVERUI" target="DRIVERRECORD" />
+    <edge source="DRIVERUI" target="ASSIGNLOG" />
+    <edge source="DRIVERUI" target="DRIVERCOMMANDLOG" />
+    <edge source="DRIVERUI" target="TRIP ASSIGNMENT" />
+    <edge source="DRIVERUI" target="DRIVER" />
+    <edge source="ASSIGNWIRE" target="TRIPMGMT" />
+    <edge source="ASSIGNWIRE" target="PSCONNECTOR" />
+    <edge source="TRIPMGMT" target="RIDESHARE" />
+    <edge source="TRIPMGMT" target="PATH 1" />
+    <edge source="TRIPMGMT" target="ASSIGNLOG" />
+    <edge source="TRIPMGMT" target="DRIVERRECORD" />
+    <edge source="TRIPMGMT" target="TRIP ASSIGNMENT" />
+    <edge source="TRIPMGMT" target="RIDE" />
+    <edge source="ASSIGN" target="PSCONNECTOR" />
+    <edge source="PSCONNECTOR" target="WRIGHT# ADL" />
+    <edge source="PSCONNECTOR" target="PUBLISHER" />
+    <edge source="PSCONNECTOR" target="SUBSCRIBER" />
+    <edge source="SYSTEM MISCONFIGURATION: MULTIPLE ATTACHMENTS TO THE SAME INPUT ROLE" target="WRIGHT# ADL" />
+    <edge source="WRIGHT# ADL" target="LTL PROPERTY" />
+    <edge source="FOOD DELIVERY" target="CUSTOMERUI" />
+    <edge source="FOOD DELIVERY" target="SUPPORTCENTER" />
+    <edge source="CUSTOMERUI" target="SUPPORTCENTER" />
+    <edge source="RIDE SHARING SYSTEM (RRS)" target="RIDESHARE" />
+    <edge source="RIDESHARE" target="CRCONNECTOR" />
+    <edge source="RIDESHARE" target="WRCONNECTOR" />
+    <edge source="RIDESHARE" target="RECONNECTOR" />
+    <edge source="RIDESHARE" target="QRCONNECTOR" />
+    <edge source="RIDESHARE" target="DRIVERRECORD" />
+    <edge source="RIDESHARE" target="PAYMENT" />
+    <edge source="RIDESHARE" target="BILLINGGATEWAY" />
+    <edge source="RIDESHARE" target="SIGNON" />
+    <edge source="RIDESHARE" target="USERDB" />
+    <edge source="RIDESHARE" target="ASSIGNLOG" />
+    <edge source="RIDESHARE" target="DRIVERCOMMANDLOG" />
+    <edge source="ROCONNECTOR" target="EXTQUERIER" />
+    <edge source="ROCONNECTOR" target="BLOCKSUPPLIER" />
+    <edge source="CRCONNECTOR" target="READSTORE" />
+    <edge source="CRCONNECTOR" target="COMMANDER" />
+    <edge source="CRCONNECTOR" target="COMMANDSTORE" />
+    <edge source="READSTORE" target="QRCONNECTOR" />
+    <edge source="WRCONNECTOR" target="WRITER" />
+    <edge source="WRCONNECTOR" target="WRITESTORAGE" />
+    <edge source="RECONNECTOR" target="READER" />
+    <edge source="RECONNECTOR" target="READSTORAGE" />
+    <edge source="QRCONNECTOR" target="QUERIER" />
+    <edge source="IOCONNECTOR" target="BLOCKSTORAGE" />
+    <edge source="IOCONNECTOR" target="EXTSUPPLIER" />
+    <edge source="PATH 1" target="DRIVERRECORD" />
+    <edge source="PATH 1" target="ASSIGNLOG" />
+    <edge source="PATH 3" target="PAYMENT" />
+    <edge source="PATH 4" target="SIGNON" />
+    <edge source="PATH 4" target="USERDB" />
+    <edge source="PATH 2" target="DRIVERRECORD" />
+    <edge source="PATH 2" target="DRIVERCOMMANDLOG" />
+    <edge source="DRIVERRECORD" target="ASSIGNLOG" />
+    <edge source="DRIVERRECORD" target="DRIVER" />
+    <edge source="PAYMENT" target="PATH 5" />
+    <edge source="PAYMENT" target="BILLINGGATEWAY" />
+    <edge source="PAYMENT" target="PAYMENT PROCESSING" />
+    <edge source="PAYMENT" target="PASSENGER" />
+    <edge source="PAYMENT" target="PAYMENT TRANSACTION" />
+    <edge source="PATH 5" target="BILLINGGATEWAY" />
+    <edge source="BILLINGGATEWAY" target="PAYMENT PROCESSING" />
+    <edge source="BILLINGGATEWAY" target="PAYMENT TRANSACTION" />
+    <edge source="SIGNON" target="USERDB" />
+    <edge source="SIGNON" target="USER" />
+    <edge source="USERDB" target="USER" />
+    <edge source="ASSIGNLOG" target="TRIP ASSIGNMENT" />
+    <edge source="ASSIGNLOG" target="DRIVER" />
+    <edge source="DRIVERCOMMANDLOG" target="DRIVER" />
+    <edge source="TRIP ASSIGNMENT" target="RIDE" />
+    <edge source="RIDE" target="PASSENGER" />
+    <edge source="RIDE" target="DRIVER" />
+    <edge source="USER" target="LOGIN" />
+  </graph>
+</graphml>
