@@ -3,7 +3,8 @@ import requests
 from helpers.preprocessing import load_adl, preprocess_with_adl, identify_liveness_assert_with_adl
 
 def verify_adl(adl_with_assertions):
-    url = "http://10.211.55.4:8090/api/adlapi/verify"  # Update with your API's endpoint
+    # Update with your API's endpoint
+    url = "http://0.0.0.0:8080/api/adlapi/verify"  # Update with your API's endpoint
     data = {
         "model": "test",
         "code": adl_with_assertions
