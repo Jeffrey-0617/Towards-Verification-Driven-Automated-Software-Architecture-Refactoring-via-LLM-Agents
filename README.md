@@ -113,7 +113,7 @@ architecture_designer.get_config_status()
 The approach takes software architecture design in Wright# specifications and new functional requirements in natural language as input.
 
 The approach generates:
-- **Evolved design**: Evolved designs with verification results
+- **Refactored design**: Refactored designs with verification results
 - **Agent usage statistics**: Detailed agent usage information, such as agent name, agent detailed task, task execution time.
 - **Verification properties**: Produced verification properties.
 
